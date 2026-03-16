@@ -19,6 +19,7 @@ typedef struct _rectangle
 // function headers - implement in shapes.c
 
 Rectangle makeRectangle(Point p, float width, float height);
+
 float area(Rectangle r);
 void shiftRectangle(Rectangle *r, Point dp);
 void scaleRectangle(Rectangle *r, float scale);
